@@ -103,7 +103,7 @@ Para fazer o download do [insomnia](https://insomnia.rest/download/), para utili
 
 ## :pencil: Tarefas em aberto
 
-🖊 Nenhuma ainda!
+🖊 Veja no [trello!](https://trello.com/b/VfnBeDPz/onerestaurant)
 
 ## :octopus: Desenvolvedor
 
