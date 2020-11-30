@@ -1,0 +1,10 @@
+api/node_modules/
+web/node_modules/
+.vscode/
+
+dist/
+temp/
+coverage/
+
+tmp/*
+!tmp/.gitkeep
