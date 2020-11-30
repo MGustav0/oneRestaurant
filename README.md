@@ -28,7 +28,7 @@ Front-end web: ![Badge](https://img.shields.io/badge/Bootcamp%20Rocketseat-React
 
 <p align="justify">
   
-  Neste [projeto-desafio](https://github.com/Coderockr/fullstack-test) demonstro meus conhecimentos em TypeScript, NodeJS, PostgreSQL e ReactJS.
+  Neste [projeto-desafio](https://github.com/MGustav0/oneRestaurant/blob/main/Desafio.md) demonstro meus conhecimentos em TypeScript, NodeJS, PostgreSQL e ReactJS.
 
   Bibliotecas usadas e o porquê:
 
@@ -67,8 +67,8 @@ Front-end web: ![Badge](https://img.shields.io/badge/Bootcamp%20Rocketseat-React
 
 Para rodar a aplicação basta acessar as pastas abaixo, nesta ordem, e seguir os respectivos README.md:
 
-- [server](https://github.com/MGustav0/coderockr-fullstack-test/tree/test/api) - para instalar o servidor;
-- [web](https://github.com/MGustav0/coderockr-fullstack-test/tree/test/web) - para instalar o front-end web;
+- [server](https://github.com/MGustav0/oneRestaurant/blob/main/api) - para instalar o servidor;
+- [web](https://github.com/MGustav0/oneRestaurant/blob/main/web) - para instalar o front-end web;
 
 ## :scroll: Layouts da Aplicação
 
