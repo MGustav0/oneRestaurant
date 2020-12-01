@@ -4,7 +4,7 @@
 ![Badge](https://img.shields.io/badge/node-%3E%3D%2012.18.2-brightgreen)
 ![Badge](https://img.shields.io/badge/PostgreSQL-v12.0-lightblue)
 
-> Status do Projeto: 🚧 em desenvolvimento
+> Status do Projeto: ✔️ concluído
 
 ## Tópicos
 
