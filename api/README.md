@@ -120,6 +120,8 @@ Para fazer o download do [insomnia](https://insomnia.rest/download/), para utili
 
 <img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/03_-_forgot_password.png" width="640" heigth="360" />
 
+### E-mail de recuperação
+
 <img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/04_-_forgot_password.png" width="640" heigth="360" />
 
 ### Recuperação de senha
