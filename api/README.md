@@ -104,17 +104,27 @@ Há somente 1 teste criado, apenas para fins de demonstração.
 
 ## :sleeping: Insomnia
 
-Para fazer o download do [insomnia](https://insomnia.rest/download/), para utilizar o mesmo workspace utilizado no projeto clique [aqui](https://github.com/MGustav0/coderockr-fullstack-test/blob/test/extras/Insomnia_2020-11-29.json), baixe e importe no seu insominia.
+Para fazer o download do [insomnia](https://insomnia.rest/download/), para utilizar o mesmo workspace utilizado no projeto clique [aqui](https://github.com/MGustav0/oneRestaurant/blob/development/extras/Insomnia_2020-11-30.json), baixe e importe no seu insominia.
 
 ## :scroll: Dados da API
 
-### Login
-
-<img src="" width="640" heigth="360" />
-
 ### Cadastro
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/01_-_register.png" width="640" heigth="360" />
+
+### Login
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/02_-_authenticate.png" width="640" heigth="360" />
+
+### Esqueci a senha
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/03_-_forgot_password.png" width="640" heigth="360" />
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/04_-_forgot_password.png" width="640" heigth="360" />
+
+### Recuperação de senha
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/api/05_-_reset_password.png" width="640" heigth="360" />
 
 ## :pencil: Tarefas em aberto
 
