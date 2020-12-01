@@ -18,6 +18,8 @@
 
 🔹 [Como rodar a aplicação](#arrow_forward-como-rodar-a-aplicação)
 
+🔹 [E-mail](#mailbox-e-mail)
+
 🔹 [Como rodar os testes](#building_construction-como-rodar-os-testes)
 
 🔹 [Insomnia](#sleeping-insomnia)
@@ -33,13 +35,16 @@
 <p align="justify">
 
   Neste [projeto-desafio](https://github.com/MGustav0/oneRestaurant/blob/main/Desafio.md) demonstro meus conhecimentos em TypeScript, NodeJS e PostgreSQL.
+
 </p>
 
 ## :information_source: Funcionalidades
 
 :heavy_check_mark: Login
 
-:heavy_check_mark: Cadastro (opcional)
+:heavy_check_mark: Cadastro
+
+:heavy_check_mark: Recuperação de senha por e-mail
 
 ## :sparkles: Pré-requisitos
 
@@ -73,13 +78,23 @@ Ter Docker e as imagens PostgreSQL, MongoDB e Redis instalados.
 
 ## :arrow_forward: Como rodar a aplicação
 
-Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` dentro da pasta no seu terminal para instalar todas as dependências. Após a instalação digite: `yarn dev:server`.
+Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` dentro da pasta no seu terminal para instalar todas as dependências.
 
-Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/ ou do front-end web.
+Execute as migrations para o banco de dados: `yarn typeorm migration:run`.
 
-Na mesma pasta do projeto, no terminal, digite:
+Após a instalação digite: `yarn dev:server`.
+
+Pronto! Agora basta acessar a aplicação à partir do link: http://localhost:3333/ via insomnia, ou pelo front-end web.
+
+## :mailbox: E-mail
+
+Para utilizar a função de recuperação de senha do usuário, o terminal deve estar aberto, pois o Ethereal irá gerar um link para acessar a caixa de entrada com o token.
+
+No Insomnia em _Reset password_, insira o token gerado em _"token:" : ""_ no espaço vazio e clique em _Send_.
 
 ## :building_construction: Como rodar os testes
+
+Na mesma pasta do projeto, no terminal, digite:
 
 ```bash
 yarn test

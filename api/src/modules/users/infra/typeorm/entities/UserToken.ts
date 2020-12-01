@@ -7,8 +7,6 @@ import {
   Generated,
 } from 'typeorm';
 
-/** Entidade Appointment, usada para descrever os objetos Appointment.
- * É o molde do agendamento. */
 @Entity('user_tokens')
 class UserToken {
   @PrimaryGeneratedColumn('uuid')

@@ -5,7 +5,6 @@ import IUsersTokensRepository from '@modules/users/repositories/IUserTokensRepos
 import UserToken from '@modules/users/infra/typeorm/entities/UserToken';
 
 class FakeUserTokensRepository implements IUsersTokensRepository {
-  /** Cria o repositório de testes */
   private userTokens: UserToken[] = [];
 
   public async generate(user_id: string): Promise<UserToken> {

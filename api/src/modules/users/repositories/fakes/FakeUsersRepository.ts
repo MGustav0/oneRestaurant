@@ -19,7 +19,6 @@ class FakeUsersRepository implements IUsersRepository {
     return findUserByEmail;
   }
 
-  /** Retorna os dados, por uma promise, no final cria um User  */
   public async create({
     name,
     email,
@@ -30,6 +29,14 @@ class FakeUsersRepository implements IUsersRepository {
     Object.assign(user, { id: uuidv4(), name, email, password });
 
     this.users.push(user);
+
+    return user;
+  }
+
+  public async save(user: User): Promise<User> {
+    const findIndex = this.users.findIndex(findUser => findUser.id === user.id);
+
+    this.users[findIndex] = user;
 
     return user;
   }
