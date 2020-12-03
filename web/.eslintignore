@@ -6,4 +6,6 @@ build
 
 /src/react-app-env.d.ts
 
+.eslintcache
+
 /*.js
