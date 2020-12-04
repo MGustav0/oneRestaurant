@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 
-  background-color: #c72828;
+  background-color: #e4e4eb;
 `;
 
 export const Content = styled.div`
@@ -37,6 +37,12 @@ export const AnimationContainer = styled.div`
   flex-direction: column;
   align-items: center;
   place-content: center;
+  background-color: #c72828;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 700px;
+  border-radius: 10px;
 
   animation: ${appearFromLeft} 1s;
 
@@ -47,6 +53,7 @@ export const AnimationContainer = styled.div`
 
     h1 {
       margin-bottom: 24px;
+      color: #f4ede8;
     }
 
     a {

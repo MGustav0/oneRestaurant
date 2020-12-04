@@ -7,13 +7,14 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 
-  background-color: #c72828;
+  background-color: #e4e4eb;
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 
   place-content: center;
 
@@ -36,6 +37,12 @@ export const AnimationContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #c72828;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 700px;
+  border-radius: 10px;
 
   place-content: center;
 
@@ -48,6 +55,7 @@ export const AnimationContainer = styled.div`
 
     h1 {
       margin-bottom: 24px;
+      color: #f4ede8;
     }
 
     a {

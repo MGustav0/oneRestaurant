@@ -9,12 +9,12 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #232129;
+  background: #f0f0f5;
   border-radius: 10px;
   padding: 16px;
   width: 100%;
 
-  border: 2px solid #232129;
+  border: 2px solid #f0f0f5;
   color: #666360;
 
   display: flex;
@@ -27,7 +27,7 @@ export const Container = styled.div<ContainerProps>`
   ${props =>
     props.isErrored &&
     css`
-      border-color: #c72828;
+      border-color: #ffb84d;
     `}
 
   ${props =>
@@ -47,7 +47,7 @@ export const Container = styled.div<ContainerProps>`
     flex: 1;
     background: transparent;
     border: 0;
-    color: #f4ede8;
+    color: #3d3d4d;
 
     &:placeholder {
       color: #666360;
@@ -68,7 +68,8 @@ export const Error = styled(Tooltip)`
   }
 
   span {
-    background: #c72828;
+    background: #ffb84d;
+    border: 2px solid #c72828;
     color: #fff;
 
     &::before {
@@ -76,3 +77,4 @@ export const Error = styled(Tooltip)`
     }
   }
 `;
+// ffb84d
