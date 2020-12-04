@@ -1,0 +1,34 @@
+import { buttons } from 'polished';
+import React from 'react';
+
+import { Container } from './styles';
+
+interface IFoodPlate {
+  idCategory: number;
+  strCategory: string;
+  strCategoryThumb: string;
+  strCategoryDescription: string;
+}
+
+interface IProps {
+  food: IFoodPlate;
+}
+
+const Food: React.FC<IProps> = ({ food }: IProps) => {
+  return (
+    <Container>
+      <header>
+        <img src={food.strCategoryThumb} alt={food.strCategory} />
+      </header>
+      <section className="body">
+        <h2>{food.strCategory}</h2>
+        <p>{food.strCategoryDescription}</p>
+      </section>
+      <section className="footer">
+        <button type="button">Ver receita</button>
+      </section>
+    </Container>
+  );
+};
+
+export default Food;

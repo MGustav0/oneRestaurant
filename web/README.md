@@ -29,7 +29,7 @@
 
 <p align="justify">
 
-  Neste [projeto-desafio](https://github.com/MGustav0/oneRestaurant/blob/development/Desafio.md) demonstro meus conhecimentos em TypeScript ReactJS.
+  Neste [projeto-desafio](https://github.com/MGustav0/oneRecipe/blob/development/Desafio.md) demonstro meus conhecimentos em TypeScript ReactJS.
 
   Implemento a lógica de interação com dados da API criada e da API pública [MealDB](https://www.themealdb.com/api.php), a lógica para fazer login, recuperar senha, visualizar um dashboard com receitas, visualizar uma receita com detalhes e ser responsivo em 1080 pixels e no IPhone X (812 pixels).
 

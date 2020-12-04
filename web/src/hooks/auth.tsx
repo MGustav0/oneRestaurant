@@ -29,8 +29,8 @@ const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
 const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<AuthState>(() => {
-    const token = localStorage.getItem('@OneRestaurant:token');
-    const user = localStorage.getItem('@OneRestaurant:user');
+    const token = localStorage.getItem('@OneRecipe:token');
+    const user = localStorage.getItem('@OneRecipe:user');
 
     if (token && user) {
       api.defaults.headers.authorization = `Bearer ${token}`;
@@ -49,8 +49,8 @@ const AuthProvider: React.FC = ({ children }) => {
 
     const { token, user } = response.data;
 
-    localStorage.setItem('@OneRestaurant:token', token);
-    localStorage.setItem('@OneRestaurant:user', JSON.stringify(user));
+    localStorage.setItem('@OneRecipe:token', token);
+    localStorage.setItem('@OneRecipe:user', JSON.stringify(user));
 
     api.defaults.headers.authorization = `Bearer ${token}`;
 
@@ -58,15 +58,15 @@ const AuthProvider: React.FC = ({ children }) => {
   }, []);
 
   const signOut = useCallback(() => {
-    localStorage.removeItem('@OneRestaurant:token');
-    localStorage.removeItem('@OneRestaurant:user');
+    localStorage.removeItem('@OneRecipe:token');
+    localStorage.removeItem('@OneRecipe:user');
 
     setData({} as AuthState);
   }, []);
 
   const updateUser = useCallback(
     (user: User) => {
-      localStorage.setItem('@OneRestaurant:user', JSON.stringify(user));
+      localStorage.setItem('@OneRecipe:user', JSON.stringify(user));
 
       setData({
         token: data.token,
