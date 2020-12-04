@@ -24,7 +24,6 @@ export const Container = styled.div<ContainerProps>`
     margin-top: 8px;
   }
 
-  /* Acessa as propriedades do componente */
   ${props =>
     props.isErrored &&
     css`
@@ -55,13 +54,11 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 
-  /* Pega o primeiro SVG e aplica o estilo */
   > svg {
     margin-right: 16px;
   }
 `;
 
-/* Herança de estilização, estiliza outro componente */
 export const Error = styled(Tooltip)`
   height: 20px;
   margin-left: 16px;
