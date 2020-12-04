@@ -10,6 +10,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import getValidationErrors from '../../utils/getValidationErrors';
 import { useToast } from '../../hooks/toast';
+import { useAuth } from '../../hooks/auth';
 
 import { Container, Content, AnimationContainer } from './styles';
 
@@ -21,6 +22,7 @@ interface SignInFormData {
 const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
+  const { signIn } = useAuth();
   const { addToast } = useToast();
   const history = useHistory();
 
@@ -40,6 +42,11 @@ const SignIn: React.FC = () => {
           abortEarly: false,
         });
 
+        await signIn({
+          email: data.email,
+          password: data.password,
+        });
+
         history.push('/dashboard');
       } catch (error) {
         if (error instanceof Yup.ValidationError) {
@@ -50,7 +57,6 @@ const SignIn: React.FC = () => {
           return;
         }
 
-        /** Dispara um toast message */
         addToast({
           type: 'error',
           title: 'Erro na autenticação',
@@ -58,7 +64,7 @@ const SignIn: React.FC = () => {
         });
       }
     },
-    [addToast, history],
+    [signIn, addToast, history],
   );
 
   return (

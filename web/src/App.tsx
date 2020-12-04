@@ -3,12 +3,16 @@ import { BrowserRouter } from 'react-router-dom';
 
 import GLobalStyle from './styles/global';
 
+import HookProvider from './hooks';
+
 import Routes from './routes';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Routes />
+      <HookProvider>
+        <Routes />
+      </HookProvider>
 
       <GLobalStyle />
     </BrowserRouter>
