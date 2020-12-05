@@ -1,4 +1,8 @@
 /*.js
 node_modules
 dist
+<<<<<<< HEAD
+=======
+jest.config.js
+>>>>>>> 25c89a0ca4327f2b65e0623b728a066110c28359
 jest.config.ts

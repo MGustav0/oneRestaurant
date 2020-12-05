@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "es5",
+=======
+    "target": "es2017",
+>>>>>>> 25c89a0ca4327f2b65e0623b728a066110c28359
     "module": "commonjs",
     "lib": ["es6"],
     "allowJs": true,

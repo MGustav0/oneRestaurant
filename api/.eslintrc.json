@@ -1,6 +1,10 @@
 {
   "env": {
+<<<<<<< HEAD
     "es2020": true,
+=======
+    "es2021": true,
+>>>>>>> 25c89a0ca4327f2b65e0623b728a066110c28359
     "node": true,
     "jest": true
   },
@@ -24,6 +28,7 @@
     "prettier"
   ],
   "rules": {
+<<<<<<< HEAD
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "@typescript-eslint/no-unused-vars": ["error", {
@@ -31,12 +36,27 @@
     }],
     "no-useless-constructor": "off",
      "import/extensions": [
+=======
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "argsIgnorePattern": "_"
+    }],
+    "camelcase": "off",
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "import/extensions": [
+>>>>>>> 25c89a0ca4327f2b65e0623b728a066110c28359
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
+<<<<<<< HEAD
     ]
+=======
+    ],
+    "no-useless-constructor": "off",
+    "prettier/prettier": "error"
+>>>>>>> 25c89a0ca4327f2b65e0623b728a066110c28359
   },
   "settings": {
     "import/resolver": {
