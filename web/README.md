@@ -19,7 +19,7 @@
 
 🔹 [Como rodar os testes](#building_construction-como-rodar-os-testes)
 
-🔹 [Como rodar os testes](#teacher-instruções-e-disclaimer)
+🔹 [Instruções e Disclaimer](#teacher-instruções-e-disclaimer)
 
 🔹 [Layout da Aplicação](#scroll-layout-da-aplicação)
 
