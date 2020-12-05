@@ -1,5 +1,5 @@
-import { buttons } from 'polished';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
@@ -25,7 +25,7 @@ const Food: React.FC<IProps> = ({ food }: IProps) => {
         <p>{food.strCategoryDescription}</p>
       </section>
       <section className="footer">
-        <button type="button">Ver receita</button>
+        <Link to={`/recipe/${food.idCategory}`}>Ver receita</Link>
       </section>
     </Container>
   );

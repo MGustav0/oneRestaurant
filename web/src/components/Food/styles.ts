@@ -27,11 +27,14 @@ export const Container = styled.div`
 
     h2 {
       color: #3d3d4d;
+      font-weight: 700;
+      text-align: center;
     }
     p {
       color: #3d3d4d;
       margin-top: 16px;
       text-overflow: ellipsis;
+      text-align: justify;
     }
   }
 
@@ -41,13 +44,23 @@ export const Container = styled.div`
     place-items: center;
     place-content: center;
 
-    button {
+    a {
       height: 50px;
       background-color: #39b100;
       border: none;
       border-radius: 5px;
       outline: none;
       width: 300px;
+
+      text-decoration: none;
+      color: #ffffff;
+
+      display: flex;
+      place-items: center;
+      place-content: center;
+
+      font-size: 20px;
+      font-weight: 700;
     }
   }
 `;
