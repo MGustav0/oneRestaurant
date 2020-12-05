@@ -3,7 +3,7 @@
 ![Badge](https://img.shields.io/badge/types-Flow%20%7C%20TypeScript-blue)
 ![Badge](https://img.shields.io/badge/Bootcamp%20Rocketseat-ReactJS-blueviolet)
 
-> Status do Projeto: 🚧 em desenvolvimento
+> Concluido :heavy_check_mark:
 
 ## Tópicos
 
@@ -18,6 +18,8 @@
 🔹 [Como rodar a aplicação](#arrow_forward-como-rodar-a-aplicação)
 
 🔹 [Como rodar os testes](#building_construction-como-rodar-os-testes)
+
+🔹 [Como rodar os testes](#teacher-instruções-e-disclaimer)
 
 🔹 [Layout da Aplicação](#scroll-layout-da-aplicação)
 
@@ -71,41 +73,55 @@ Na mesma pasta do projeto, no terminal, digite:
 yarn test
 ```
 
-Há somente 1 teste criado, apenas para fins de demonstração.
+## :teacher: Instruções e Disclaimer
+
+Ao rodar o back-end, crie um usuário e obtenha acesso ao dashboard e ao prato. Ao clicar em uma categoria, será redirecionado à um prato. Clicar na logo, redirecionará para o dashboard. Clicar no botão de desligar, fará o log-off da aplicação.
+
+1. A API MealDB não disponibiliza listagem de várias receitas por padrão
+
+2. Somente no meio do projeto eu me atentei que a API MealDB não se tratava de pratos de restaurante, mas de receitas, por isto a divergência entre o nome do projeto e o nome no layout.
 
 ## :scroll: Layout da Aplicação
 
-### Login 1080 pixels
+### Login
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/01_-_signin.png" width="640" heigth="360" />
 
 ### Login em 812 pixels
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/02_-_mobile_signin.png" width="360" heigth="640" />
 
-### Recuperação de senha em 1080 pixels
+### Erro de login
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/03_-_signin_error.png" width="640" heigth="360" />
 
-### Recuperação de senha em 812 pixels
+### Esqueceu a senha
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/04_-_forgot_password.png" width="640" heigth="360" />
 
-### Dashboard em 1080 pixels
+### Recuperação de senha
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/05_-_reset_password.png" width="640" heigth="360" />
+
+### Cadastro
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/06_-_siginup.png" width="640" heigth="360" />
+
+### Dashboard
+
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/07_-_dashboard.png" width="640" heigth="360" />
 
 ### Dashboard em 812 pixels
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/08_-_mobile_dashboard.png" width="360" heigth="640" />
 
-### Modal de Contato em 1080 pixels
+### Página de receita
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/09_-_recipe.png" width="640" heigth="360" />
 
-### Modal de Contato em 812 pixels
+### Página de receita em 812 pixels
 
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/10_-_mobile_recipe.png" width="360" heigth="640" />
 
 ## :pencil: Tarefas em aberto
 
