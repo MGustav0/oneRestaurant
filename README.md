@@ -8,7 +8,7 @@ Front-end web: ![Badge](https://img.shields.io/badge/Bootcamp%20Rocketseat-React
 
 ## Status do Projeto
 
-> Concluido :heavy_check_mark:
+> 🚧 em desenvolvimento
 
 ## Tópicos
 
