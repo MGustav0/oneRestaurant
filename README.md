@@ -8,7 +8,7 @@ Front-end web: ![Badge](https://img.shields.io/badge/Bootcamp%20Rocketseat-React
 
 ## Status do Projeto
 
-> 🚧 em desenvolvimento
+> Concluido :heavy_check_mark:
 
 ## Tópicos
 
@@ -74,9 +74,7 @@ Para rodar a aplicação basta acessar as pastas abaixo, nesta ordem, e seguir o
 
 ### 🌐 Web
 
-<img src="" width="640" heigth="360" />
-
-<img src="" width="640" heigth="360" />
+<img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/02_-_mobile_signin.png" width="360" heigth="640" />   <img src="https://github.com/MGustav0/oneRestaurant/blob/development/extras/screenshots/web/08_-_mobile_dashboard.png" width="360" heigth="640" />
 
 ## :hammer: Resolvendo Problemas
 
