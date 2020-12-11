@@ -84,7 +84,7 @@ const ResetPassword: React.FC = () => {
     <Container>
       <Content>
         <AnimationContainer>
-          <img src={logoImg} alt="GoBarber" />
+          <img src={logoImg} alt="OneRestaurant" />
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Resete sua senha</h1>
 
