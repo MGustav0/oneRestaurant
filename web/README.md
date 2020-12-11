@@ -81,6 +81,8 @@ Ao rodar o back-end, crie um usuário e obtenha acesso ao dashboard e ao prato. 
 
 2. Somente no meio do projeto eu me atentei que a API MealDB não se tratava de pratos de restaurante, mas de receitas, por isto a divergência entre o nome do projeto e o nome no layout.
 
+3. Com a atualização dos React Hooks, não foi necessário/útil utilizar o Redux, pois o gerenciamento de estados pelos Hooks está mais fácil e direto de se fazer. Este requisito não foi cumprido.
+
 ## :scroll: Layout da Aplicação
 
 ### Login
